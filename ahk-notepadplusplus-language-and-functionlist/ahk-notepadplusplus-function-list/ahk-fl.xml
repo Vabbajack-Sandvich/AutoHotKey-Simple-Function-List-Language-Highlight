@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- ==========================================================================\
+|
+|   To learn how to make your own language parser, please check the following
+|   link:
+|       https://npp-user-manual.org/docs/function-list/
+|
+\=========================================================================== -->
+<NotepadPlus>
+	<functionList>
+		<!-- ========================================= [ this is for auto hot key ] -->
+		<!-- File format used for: .ahk       -->
+
+		<parser
+			displayName="ahk"
+			id="ahk" >
+			
+			<!-- this works but not for tabs in the front -->
+			
+			
+			<!--
+			
+			<function mainExpr="^[*A-Z*a-z*\d*]*\({1}[\,*[*A-Z*a-z*\d*\s*]*]*\){1}\r\n\{+|^[\$\^\!\+*A-Z*a-z*\d]*\:\:\r\n\{+" />
+
+			-->
+			
+			<!--
+			^[*\t*A-Z*a-z*\d*]*\({1}[\,*[*A-Z*a-z*\d*\s*]*]*\){1}\n\t*\{+|^[*\t\$\^\!\+*A-Z*a-z*\d]*\:\:\n\t*\{+
+			-->
+			
+			<function mainExpr="^[*\t*A-Z*a-z*\d*]*\({1}[\,*[*A-Z*a-z*\d*\s*]*]*\){1}\r\n\t*\{+|^[*\t\$\^\!\+*A-Z*a-z*\d]*\:\:\r\n\t*\{+" />
+
+
+		</parser>
+				
+	</functionList>
+</NotepadPlus>
