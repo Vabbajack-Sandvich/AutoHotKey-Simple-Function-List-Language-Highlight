@@ -1,3 +1,7 @@
+![example 1](https://github.com/Vabbajack-Sandvich/AutoHotKey-Simple-Function-List-Language-Highlight\ahk-notepadplusplus-functionlist-3.png?raw=true)
+
+
+
 # Autohotkey Notepad++ custom language highlight and function list files
 
 
@@ -7,7 +11,10 @@ This is intended to be simple and non-exhaustive.
 
 This uses this regex pattern to make the function list in Notepad++ find the 2 things below:
 
-`^[*\t*A-Z*a-z*\d*]*\({1}[\,*[*A-Z*a-z*\d*\s*]*]*\){1}\r\n\t*\{+|^[*\t\$\^\!\+*A-Z*a-z*\d]*\:\:\r\n\t*\{+
+
+```
+^[*\t*A-Z*a-z*\d*]*\({1}[\,*[*A-Z*a-z*\d*\s*]*]*\){1}\r\n\t*\{+|^[*\t\$\^\!\+*A-Z*a-z*\d]*\:\:\r\n\t*\{+
+```
 
 
 new line, however many tabs, function name, parenthesis, however many variables, parenthesis, return, how ever many tabs, open brace
