@@ -1,4 +1,4 @@
-#Autohotkey Notepad++ custom language highlight and function list files
+# Autohotkey Notepad++ custom language highlight and function list files
 
 
 This highlights syntax and finds function and hotkey definitions, and lists them in Notepad++ the function list window. 
@@ -11,7 +11,7 @@ This uses this regex pattern to make the function list in Notepad++ find the 2 t
 
 
 
-#A function definition:
+# A function definition:
 
 ```
 blah(blah1, blah2, blah3)
@@ -21,7 +21,7 @@ blah(blah1, blah2, blah3)
 ```
 
 
-#A hot key definition:
+# A hot key definition:
 
 
 ```
@@ -33,16 +33,16 @@ $^+f::
 ```
 
 
-Sorting by A-z# in the Notepad++ function list or not means you can see where the function or hotkey falls in the code or not.
+Sorting by A-z#  in the Notepad++ function list or not means you can see where the function or hotkey falls in the code or not.
 
 Trying to see all the variations of the hotkeys won't work alphanumerically, and they will be scattered, but if you group them alphanumerically in the code and switch the function list to display as it finds stuff in the code, it makes it easy to see all the functions and hotkeys relative to each other.
 
-#Windows Install For Notepad++
+# Windows Install For Notepad++
 
 This is just both of the readme files for both the Custom Language Highlight Section and the Function List Section.
 
 
-#Custom Language Highlight
+# Custom Language Highlight
 
 
 Complete both sections, the overrideMap.xml and Language Highlight Sections
@@ -50,7 +50,7 @@ Complete both sections, the overrideMap.xml and Language Highlight Sections
 Both sections have to be completed for the language highlight and the function list to work.
 
 
-#WINDOWS:
+# WINDOWS:
 
 
 Copy and paste ahk.xml into this directory.
@@ -71,7 +71,7 @@ But if it did work, you should see all your functions and all the hot keys with:
 
 
 
-#Function List and overrideMap.xml
+# Function List and overrideMap.xml
 
 ```
 <!--
