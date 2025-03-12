@@ -7,28 +7,29 @@ This is intended to be simple and non-exhaustive.
 
 This uses this regex pattern to make the function list in Notepad++ find the 2 things below:
 
-^[*\t*A-Z*a-z*\d*]*\({1}[\,*[*A-Z*a-z*\d*\s*]*]*\){1}\r\n\t*\{+|^[*\t\$\^\!\+*A-Z*a-z*\d]*\:\:\r\n\t*\{+
+`^[*\t*A-Z*a-z*\d*]*\({1}[\,*[*A-Z*a-z*\d*\s*]*]*\){1}\r\n\t*\{+|^[*\t\$\^\!\+*A-Z*a-z*\d]*\:\:\r\n\t*\{+
 
 
 
 #A function definition:
 
 
-blah(blah1, blah2, blah3)
-{
-	blahblah()
-}
+`blah(blah1, blah2, blah3)
+`{
+`	blahblah()
+`}
 
 
 
 #A hot key definition:
 
 
-$^+f::
-{
-	blah(1,2,3)
-	return
-}
+`$^+f::
+`{
+`	blah(1,2,3)
+`	return
+`}
+
 
 Sorting by A-z# in the Notepad++ function list or not means you can see where the function or hotkey falls in the code or not.
 
@@ -45,7 +46,6 @@ This is just both of the readme files for both the Custom Language Highlight Sec
 Complete both sections, the overrideMap.xml and Language Highlight Sections
 
 Both sections have to be completed for the language highlight and the function list to work.
-
 
 
 #WINDOWS:
@@ -71,7 +71,7 @@ But if it did work, you should see all your functions and all the hot keys with:
 
 #Function List and overrideMap.xml
 
-
+```
 <!--
 
 
@@ -112,4 +112,4 @@ You might have to click on and off the ahk file or refresh the function list to 
 
 <association id= "ahk-fl.xml"	userDefinedLangName="ahk"/>
 
-
+```
