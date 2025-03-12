@@ -18,25 +18,27 @@ This uses this regex pattern to make the function list in Notepad++ find the 2 t
 ```
 
 
-new line, however many tabs, function name, parenthesis, however many variables, parenthesis, return, how ever many tabs, open brace
-
-or
-
-new line, how ever many tabs, whatever symbols, whatever letter or number, double colons ::, return, however many tabs, open brace
-
-
 
 A function definition:
+
+new line, however many tabs, function name, parenthesis, however many variables, parenthesis, return, how ever many tabs, open brace
+
 
 ```
 blah(blah1, blah2, blah3)
 {
 	blahblah()
+	return
 }
 ```
 
 
+or
+
+
 A hot key definition:
+
+new line, how ever many tabs, whatever symbols, whatever letter or number, double colons ::, return, however many tabs, open brace
 
 
 ```
