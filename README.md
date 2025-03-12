@@ -1,4 +1,4 @@
-![example 1](https://github.com/Vabbajack-Sandvich/AutoHotKey-Simple-Function-List-Language-Highlight/blob/ahk-notepadplusplus-functionlist-3.png?raw=true)
+![example 1](https://github.com/Vabbajack-Sandvich/AutoHotKey-Simple-Function-List-Language-Highlight/blob/main/ahk-notepadplusplus-functionlist-3.png?raw=true)
 
 
 
