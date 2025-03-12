@@ -22,11 +22,11 @@ new line, however many tabs, function name, parenthesis, however many variables,
 
 or
 
-new line, how ever many tabs, whatever symbols, whatever leter or number, double colons ::, return, however many tabs, open brace
+new line, how ever many tabs, whatever symbols, whatever letter or number, double colons ::, return, however many tabs, open brace
 
 
 
-# A function definition:
+A function definition:
 
 ```
 blah(blah1, blah2, blah3)
@@ -36,7 +36,7 @@ blah(blah1, blah2, blah3)
 ```
 
 
-# A hot key definition:
+A hot key definition:
 
 
 ```
@@ -57,7 +57,7 @@ Trying to see all the variations of the hotkeys won't work alphanumerically, and
 This is just both of the readme files for both the Custom Language Highlight Section and the Function List Section.
 
 
-# Custom Language Highlight
+Custom Language Highlight
 
 
 Complete both sections, the overrideMap.xml and Language Highlight Sections
@@ -65,7 +65,7 @@ Complete both sections, the overrideMap.xml and Language Highlight Sections
 Both sections have to be completed for the language highlight and the function list to work.
 
 
-# WINDOWS:
+WINDOWS:
 
 
 Copy and paste ahk.xml into this directory.
@@ -86,7 +86,7 @@ But if it did work, you should see all your functions and all the hot keys with:
 
 
 
-# Function List and overrideMap.xml
+Function List and overrideMap.xml
 
 ```
 <!--
