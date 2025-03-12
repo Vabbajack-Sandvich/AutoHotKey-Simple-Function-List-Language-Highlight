@@ -13,22 +13,24 @@ This uses this regex pattern to make the function list in Notepad++ find the 2 t
 
 #A function definition:
 
-
-`blah(blah1, blah2, blah3)
-`{
-`	blahblah()
-`}
-
+```
+blah(blah1, blah2, blah3)
+{
+	blahblah()
+}
+```
 
 
 #A hot key definition:
 
 
-`$^+f::
-`{
-`	blah(1,2,3)
-`	return
-`}
+```
+$^+f::
+{
+	blah(1,2,3)
+	return
+}
+```
 
 
 Sorting by A-z# in the Notepad++ function list or not means you can see where the function or hotkey falls in the code or not.
