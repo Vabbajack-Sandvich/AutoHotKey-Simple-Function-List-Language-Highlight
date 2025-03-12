@@ -10,6 +10,13 @@ This uses this regex pattern to make the function list in Notepad++ find the 2 t
 `^[*\t*A-Z*a-z*\d*]*\({1}[\,*[*A-Z*a-z*\d*\s*]*]*\){1}\r\n\t*\{+|^[*\t\$\^\!\+*A-Z*a-z*\d]*\:\:\r\n\t*\{+
 
 
+new line, however many tabs, function name, parenthesis, however many variables, parenthesis, return, how ever many tabs, open brace
+
+or
+
+new line, how ever many tabs, whatever symbols, whatever leter or number, double colons ::, return, however many tabs, open brace
+
+
 
 # A function definition:
 
