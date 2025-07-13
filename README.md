@@ -76,7 +76,7 @@ I know that feeling because between the time I wrote the first version and the t
 
 You have to try whichever combination of directories works on whichever type of Notepad++ install you have.
 
-Editing the overridemap.xml and having the ahk-fl.xml in the functionlist in the C:\Program Files\Notepad++\functionList\ path AND making a new directory for userdefinedlang in the C:\Users\USERNAME\AppData\Roaming\ directory AND putting the ahk.xml language highlight file in the  C:\Users\USERNAME\AppData\Roaming\Notepad++\userdefinedlang\ directory is the combination that worked for me and is what the TLDR version of the installation.
+Editing the overridemap.xml and having the ahk-fl.xml in the functionlist in the C:\Program Files\Notepad++\functionList\ path AND making a new directory for userdefinedlang in the C:\Users\USERNAME\AppData\Roaming\ directory AND putting the ahk.xml language highlight file in the  C:\Users\USERNAME\AppData\Roaming\Notepad++\userdefinedlang\ directory is the combination that worked for me and is what the TLDR version of the installation WHICH IS NOT what is in the NON-TLDR version which is only in the %APPDATA% version of the Notepad++ install.
 
 Also, you have to select ahk as your user defined language from the language menu while you have your .ahk file open that you want to highlight.
 
