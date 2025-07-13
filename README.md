@@ -72,7 +72,7 @@ So, if you copy and paste the files in all the "right" directories, edit the ove
 
 YOU DID EVERYTHING "RIGHT" AND DONT SEE ANYTHING IN THE FUNCTION LIST!!
 
-I know that feeling because between the time I wrote the first version and the time I wrote this update, I forgot how I had it installed, had to reinstall Notepadd++, which, somehow, apparently I did differently this time, came here, downloaded my own stuff, followed my own install directions and it still wouldn't work.
+I know that feeling because between the time I wrote the first version and the time I wrote this update, I forgot how I had it installed, had to reinstall Notepad++, which, somehow, apparently I did differently this time, came here, downloaded my own stuff, followed my own install directions and it still wouldn't work.
 
 You have to try whichever combination of directories works on whichever type of Notepad++ install you have.
 
