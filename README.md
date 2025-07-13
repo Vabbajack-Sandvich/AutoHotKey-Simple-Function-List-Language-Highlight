@@ -24,7 +24,7 @@ This uses this regex pattern to make the function list in Notepad++ find the 2 t
 
 A function definition:
 
-new line, however many tabs, function name, parenthesis, however many variables, parenthesis, return, how ever many tabs, open brace
+new line, however many tabs or spaces, function name, parenthesis, however many variables, parenthesis, return, how ever many tabs, open brace
 
 
 ```
