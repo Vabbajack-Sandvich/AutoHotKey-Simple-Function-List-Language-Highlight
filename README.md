@@ -6,6 +6,9 @@
 # Autohotkey Notepad++ custom language highlight and function list files
 
 
+1.1 - Update - Added spaces and equals to the search key and made the formatting more flexible, so it will find entries with any amount of tabs or spaces before the function or hotkey, whereas before it required strict formatting.
+
+
 This highlights syntax and finds function and hotkey definitions, and lists them in Notepad++ the function list window. 
 
 This is intended to be simple and non-exhaustive.
@@ -14,7 +17,7 @@ This uses this regex pattern to make the function list in Notepad++ find the 2 t
 
 
 ```
-^[*\t*A-Z*a-z*\d*]*\({1}[\,*[*A-Z*a-z*\d*\s*]*]*\){1}\r\n\t*\{+|^[*\t\$\^\!\+*A-Z*a-z*\d]*\:\:\r\n\t*\{+
+^[*\t\x20{*}A-Z*a-z*\d*]*\({1}[\,*[*A-Z*a-z*\d*\s*]*]*\){1}[\r\n]+[\t*\x20{*}]*[\{+]+|^[*\t\x20{*}\x3d{*}\$\^\!\+*A-Z*a-z*\d]*[\:\:]+[\r\n]+[\t*\x20{*}]*[\{+]+
 ```
 
 
@@ -38,7 +41,7 @@ or
 
 A hot key definition:
 
-new line, how ever many tabs, whatever symbols, whatever letter or number, double colons ::, return, however many tabs, open brace
+new line, how ever many tabs, spaces, whatever symbols, whatever letter or number, double colons ::, return, however many tabs, open brace
 
 
 ```
