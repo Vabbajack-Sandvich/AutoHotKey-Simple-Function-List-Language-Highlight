@@ -22,7 +22,7 @@ This uses this regex pattern to make the function list in Notepad++ find the 2 t
 
 
 ```
-^[\t*\x20{*}A-Z*a-z*\d*]+(?<!if not )(?<!if )(?<!else )(?<!while )(?<!while not)(?<!select )\({1}(?<! if not\()(?<!\tif not\()(?<! if\()(?<!\tif\()(?<! else\()(?<!\telse\()(?<! while\()(?<!\twhile\()(?<! while not\()(?<!\twhile not\()(?<! select\()(?<!\tselect\()[\,*[*A-Z*a-z*\d*\s*]*]*\){1}[\r\n]*[\t*\x20{*}]*[\{+]+|^[\x3d{*}\$\^\!\+*A-Z*a-z*\d]+[\:\:]+[\r\n]*[\t*\x20{*}]*[\{+]+
+^[\t*\x20{*}A-Z*a-z*\d*]+(?<!if not )(?<!if )(?<!else )(?<!while )(?<!while not )(?<!select )\({1}(?<! if not\()(?<!\tif not\()(?<! if\()(?<!\tif\()(?<! else\()(?<!\telse\()(?<! while\()(?<!\twhile\()(?<! while not\()(?<!\twhile not\()(?<! select\()(?<!\tselect\()[\,*[*A-Z*a-z*\d*\s*]*]*\){1}[\r\n]*[\t*\x20{*}]*[\{+]+|^[\x3d{*}\$\^\!\+*A-Z*a-z*\d]+[\:\:]+[\r\n]*[\t*\x20{*}]*[\{+]+
 ```
 
 
