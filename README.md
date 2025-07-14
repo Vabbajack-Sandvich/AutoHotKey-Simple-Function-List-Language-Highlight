@@ -5,6 +5,9 @@
 # 1.1 - Update
 Added spaces and equals to the search key and made the formatting more flexible, so it will find entries with any amount of tabs or spaces before the function or hotkey, whereas before it required strict formatting with the functions and hotkeys having zero spaces or tabs.
 
+# 1.2 - Update
+Made it so the curly brace can be on the same line or not.
+
 # Autohotkey Notepad++ custom language highlight and function list files
 
 This highlights syntax and finds function and hotkey definitions, and lists them in Notepad++ the function list window. 
