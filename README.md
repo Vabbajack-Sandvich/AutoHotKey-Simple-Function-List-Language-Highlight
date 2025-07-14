@@ -2,6 +2,10 @@
 
 
 
+# TLDR for the TLDR: Windows
+Just install it the same way you would any other language highlight or function list thing for Notepad++
+
+
 # 1.1 - Update
 Added spaces and equals to the search key and made the formatting more flexible, so it will find entries with any amount of tabs or spaces before the function or hotkey, whereas before it required strict formatting with the functions and hotkeys having zero spaces or tabs.
 
