@@ -17,7 +17,7 @@
 			
 			<!-- version 1.2 -->
 			
-			<function mainExpr="^[\t*\x20{*}A-Z*a-z*\d*]+(?<!if not)(?<!if not )(?<!if)(?<!if )(?<!else)(?<!else )(?<!while)(?<!while )(?<!select)(?<!select )\({1}[\,*[*A-Z*a-z*\d*\s*]*]*\){1}[\r\n]*[\t*\x20{*}]*[\{+]+|^[\x3d{*}\$\^\!\+*A-Z*a-z*\d]+[\:\:]+[\r\n]*[\t*\x20{*}]*[\{+]+"
+			<function mainExpr="^[\t*\x20{*}A-Z*a-z*\d*]+(?<!if not )(?<!if )(?<!else )(?<!while )(?<!while not)(?<!select )\({1}(?<! if not\()(?<!\tif not\()(?<! if\()(?<!\tif\()(?<! else\()(?<!\telse\()(?<! while\()(?<!\twhile\()(?<! while not\()(?<!\twhile not\()(?<! select\()(?<!\tselect\()[\,*[*A-Z*a-z*\d*\s*]*]*\){1}[\r\n]*[\t*\x20{*}]*[\{+]+|^[\x3d{*}\$\^\!\+*A-Z*a-z*\d]+[\:\:]+[\r\n]*[\t*\x20{*}]*[\{+]+"
 			/>
 
 		</parser>
